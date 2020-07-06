@@ -82,7 +82,7 @@ set CMD_LINE_ARGS=%*
 :execute
 @rem Setup the command line
 
-set CLASSPATH=%APP_HOME%\lib\simple-java-app-gradle.jar
+set CLASSPATH=%APP_HOME%\lib\simple-java-app-gradle.jar;%APP_HOME%\lib\joda-time-2.2.jar
 
 
 @rem Execute simple-java-app-gradle
